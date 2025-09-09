@@ -8,15 +8,65 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-secondary: var(--font-Archivo);
+  --font-primary: var(--font-Manrope);
+  --font-proximaNova: var(--font-proximanova-regular);
+  --font-proximaNovaBold: var(--font-proximanova-bold);
+
+    /* --font-sans: var(--font-Archivo-sans);
+  --font-mono: var(--font-DM-Sans); */
+
+  /* --color-*: initial; */
+  --color-light-green: #ebfff6;
+  --color-dark-black: #3d3d3d;
+  --color-dark-green: #007a44;
+  --color-hover-green: #00522e;
+  --color-auth-green: #9efad1;
+  --color-header-grey: #4d4d4d;
+  --color-dark-grey: #757575;
+  --color-text-grey: #808080;
+  --color-text-grey-100: #5d5d5d;
+  --color-disabled-grey: #e0e0e0;
+  --color-light-yellow: #fff9eb;
+  --color-modal-grey: rgba(0, 0, 0, 0.2);
+  --color-light-grey: rgba(255, 255, 255, 0.2);
+  --color-border-grey: #dfe5ec;
+  --color-error-bg: #fef4f4;
+  --color-error: #f54e42;
+  --color-grey: rgba(0, 0, 0, 0.5);
+
+  /* White & Neutral shades */
+  --color-white: #ffffff;
+  --color-white-100: #fefefe;
+  --color-white-200: #f9f9f9;
+  --color-white-300: #f5f5f5;
+  --color-white-400: #eeeeee;
+  --color-white-500: #e0e0e0;
+
+  /* Blue shades */
+  --color-blue-50: #e6eff6;
+  --color-blue-100: #b0cee3;
+  --color-blue-200: #8ab6d6;
+  --color-blue-300: #5594c3;
+  --color-blue-400: #3480b8;
+  --color-blue-500: #0160a6;
+  --color-blue-600: #015797;
+  --color-blue-700: #014476;
+  --color-blue-800: #01355b;
+  --color-blue-900: #002846;
+  --color-cosmic-blue-light: #00a8e1;
+  --color-cosmic-blue-dark: #0f3460;
+  --color-cosmic-light-blue: #2cf8ff;
+
+  /* Red shade */
+  --color-red-100: #f04438;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  /* :root {
     --background: #0a0a0a;
     --foreground: #ededed;
-  }
+  } */
 }
 
 body {
