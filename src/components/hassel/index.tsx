@@ -12,7 +12,7 @@ const hasselData = [
     title: "Inventory Chaos",
     description:
       "Stock is managed in notebooks or spreadsheets, leading to overselling and disappointed customers",
-    image: "/images/inventoryHassel.webp",
+    image: "/images/stressfulInventory.webp",
   },
   {
     title: "Payment Confusion",
