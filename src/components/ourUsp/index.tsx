@@ -26,7 +26,7 @@ const Usp = () => {
         <Typography.Heading className="md:text-center md:text-[50px]">
           Our Unique Selling Point
         </Typography.Heading>
-        <Typography.Text className="mt-3 text-[20px]">
+        <Typography.Text className="text-[20px]">
           FlexShop is mobile-first, affordable, and tailored to fit right into
           sellers’ daily workflow.
         </Typography.Text>

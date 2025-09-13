@@ -7,18 +7,18 @@ const BusinessModel = () => {
       title: "Free to Start",
       subtitle:
         "No upfront costs. A small % on each order, so we succeed when our vendors succeed.",
-      icon: "/images/smintegration.webp",
+      icon: "/images/transactional.webp",
     },
     {
       title: "Future Upsell",
       subtitle:
         "Affordable subscriptions for advanced tools: analytics, customer targeting, bulk SMS/email, and compliance reporting.",
-      icon: "/images/analytics.webp",
+      icon: "/images/futureandUpsell.webp",
     },
     {
       title: "Partnerships",
       subtitle: "Integrations with local delivery and payment providers.",
-      icon: "/images/businessModel.webp",
+      icon: "/images/partnership.webp",
     },
   ];
 
@@ -28,7 +28,7 @@ const BusinessModel = () => {
         <Typography.Heading className="md:text-center md:text-[50px]">
           How We Make Money
         </Typography.Heading>
-        <Typography.Text className="mt-3 text-[20px]">
+        <Typography.Text className="text-[20px]">
           Our business model grows with our vendors
         </Typography.Text>
       </div>

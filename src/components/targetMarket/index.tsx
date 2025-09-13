@@ -108,7 +108,7 @@ const TargetMarket = () => {
         </div>
       </div>
       <div
-        className="h-screen md:mt-[7rem] flex flex-col justify-center items-center relative "
+        className="h-screen md:mt-[6.2rem] flex flex-col justify-center items-center relative "
         ref={card}
         id="card"
       >
